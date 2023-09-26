@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: rgb(252, 43, 43);
+    height: 3.84rem;
+}
+.nav div{
+    color: whitesmoke;
+    font-size: 1.05rem;
+    margin-left: 1rem;
+    box-shadow: 1px 1px 1px;
+    padding: 0rem .25rem;
+}
+h4{
+    font-size: 1.2rem;
+    box-shadow: 1px 1px 1px;
+    padding: 0rem .25rem;
+}
+#home{
+    cursor: pointer;
+}
+h4 span{
+    color: rgb(253, 253, 253);
+    /* box-shadow: 1px 1px 1px; */
+}
+.logoImg{
+    width: 3rem;
+    height: 3.5rem;
+    margin: .6rem 1.5rem .5rem 1.5rem;
+    border-radius: 45%;
+    box-shadow: 1px 1px 1px rgb(32, 31, 31);
+}
+.logoImg img{
+    width: 3rem;
+    height: 3.5rem;
+    border-radius: 45%;
+}
+.mainBody{
+    background-image: url(./Images/bg.jpg);
+    height: 83.4vh;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 2rem;
+    padding-bottom: 6rem;
+}
+.mainBody div{
+    color: whitesmoke;
+    font-size: 3.3rem;
+    display: flex;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: .3rem;
+    text-decoration: underline;
+}
+.mainBody input{
+    width: 25rem;
+    border-radius: .3rem;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(240, 227, 227);
+    padding: .3rem .6rem;
+}
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    padding: 0 4rem;
+    height: 3.84rem;
+    font-size: .75rem;
+    font-weight: 550;
+}
+.links{
+    font-size: 1.7rem;
+    display: flex;
+    gap: .8rem;
+    /* color: slategray; */
+}
+.face{
+    /* color: rgb(41, 41, 243); */
+    color: rgb(22, 22, 22);
+    transition: tranform 0.4s ease;
+    border-radius: 15%;
+}
+.face:hover{
+    transform: scale(1.1);
+}

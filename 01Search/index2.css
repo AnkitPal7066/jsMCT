@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: rgb(252, 43, 43);
+    height: 3.84rem;
+}
+.nav div{
+    color: whitesmoke;
+    font-size: 1.05rem;
+    margin-left: 1rem;
+    box-shadow: 1px 1px 1px;
+    padding: 0rem .25rem;
+}
+h4{
+    font-size: 1.2rem;
+    box-shadow: 1px 1px 1px;
+    padding: 0rem .25rem;
+}
+#home{
+    cursor: pointer;
+}
+h4 span{
+    color: rgb(253, 253, 253);
+    /* box-shadow: 1px 1px 1px; */
+}
+.logoImg{
+    width: 3rem;
+    height: 3.5rem;
+    margin: .6rem 1.5rem .5rem 1.5rem;
+    border-radius: 45%;
+    box-shadow: 1px 1px 1px rgb(32, 31, 31);
+}
+.logoImg img{
+    width: 3rem;
+    height: 3.5rem;
+    border-radius: 45%;
+}
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    padding: 0 4rem;
+    height: 3.84rem;
+    font-size: .75rem;
+    font-weight: 550;
+}
+.links{
+    font-size: 1.65rem;
+    display: flex;
+    gap: .8rem;
+}
+.face{
+    color: rgb(22, 22, 22);
+    transition: tranform 0.4s ease;
+    border-radius: 15%;
+}
+.face:hover{
+    transform: scale(1.1);
+}
+
+/* kkkkkkkkkkkkkkk */
+.main{
+    text-align: center;
+    background-image: url(https://cdn1.thesculptedvegan.com/wp-content/uploads/2020/05/16141629/12-week-meal-plans-background-min-2048x1279.jpg);
+    height: 100%;
+
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secHead{
+    text-align: center;
+    border-radius: .4rem;
+    padding: 1rem 3rem;
+    padding-top: 1rem;
+    box-shadow: 2px 2px 2px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgba(241, 178, 178, 0.5);
+}
+.down{
+    background-color: rgba(241, 178, 178, 0.5);
+    height: 27.1rem;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1.5rem 3rem;
+    display: none;
+}
+.down::-webkit-scrollbar {
+    display: none;
+}
+.secHead h5{
+    font-size: 2rem;
+}
+.secHead h5 span{
+    color: red;
+}
+.secHead h6{
+    font-size: large;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: .3rem;
+}
+.secHead div input{
+    text-align: center;
+    width: 25rem;
+    height: 1.6rem;
+    outline: none;
+    border-radius: .3rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+    font-size: 1rem;
+    padding: .2rem .6rem;
+}
+.secHead div button{
+    border-radius: .3rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 1.6rem;
+    font-size: 1rem;
+    border: none;
+    padding: .3rem .7rem;
+    cursor: pointer;
+    background-color: rgb(30, 147, 249);
+}
+/*  */
+.oneDish{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 19rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    height: 18rem;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px rgb(50, 50, 50);
+    margin: 1rem;
+}
+.imgDiv{
+    width: 19rem;
+    height: 12rem;
+    overflow: hidden;
+    border-radius: 1rem 1rem 0rem 0;
+    box-shadow: 1px 1px 1px 2px rgb(50, 50, 50);
+    transition: .5s;
+}
+.dishImg{
+    width: 19rem;
+    height: 12rem;
+    border-radius: 1rem 1rem 0 0;
+}
+.dishImg:hover{
+    transform: scale(1.2);
+}
+.btnDiv{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(69, 162, 244);
+    padding: .6rem 0;
+    font-size: 1rem;
+}
+.detailB{
+    background-color: rgb(20, 207, 20);
+    padding: .2rem .5rem;
+    color: white;
+    font-size: .9rem;
+    border: none;
+    width: 5.5rem;
+    border-radius: .3rem;
+    box-shadow: 1px 1px 1px 1px rgb(50, 50, 50);
+    cursor: pointer;
+}
+.recipeB{
+    background-color: rgb(20, 207, 20);
+    padding: .2rem .5rem;
+    color: white;
+    font-size: .9rem;
+    border: none;
+    width: 5.5rem;
+    border-radius: .3rem;
+    box-shadow: 1px 1px 1px 1px rgb(50, 50, 50);
+    cursor: pointer;
+}
+.nameDiv{
+    padding: 0rem .5rem;
+    background-color: rgb(3, 196, 196);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    height: 3.4rem;
+    
+}
+.nameDiv h2{
+    font-size: 1.3rem;
+}
